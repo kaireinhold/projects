@@ -1,1 +1,1 @@
-This is a collection of all my projects.
+This is a collection of all my code projects.

@@ -42,5 +42,5 @@ print("Because he shows off its " + userAdj + " side!")
 print(" ")
 print("Thank you for playing!")
 leave = input("Would you like to exit? ")
-if change == "Y" or change == "Yes" or change == "yes" or change == "y":
+if leave == "Y" or leave == "Yes" or leave == "yes" or leave == "y":
     exit()

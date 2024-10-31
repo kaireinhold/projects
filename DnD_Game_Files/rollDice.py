@@ -32,10 +32,11 @@ def roll():
         print("Rolling "  + x + "...")
         time.sleep(1.5)
         roll_num = int(x[1:len(x)])
-        roll_output = int(random.uniform(1,roll_num))
+        roll_output = random.randint(1,roll_num)
         output_str = str(roll_output)
         if roll_output in an_list or str(output_str[0]) == "8":
             print(x + ": You rolled an " + output_str + "!")
         else:
             print(x + ": You rolled a " + output_str + "!")
         time.sleep(1)
+roll()
